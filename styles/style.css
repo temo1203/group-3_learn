@@ -1,0 +1,28 @@
+.red-text {
+    color: red;
+}
+
+
+div {
+    /* display: inline; */
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.div-1 {
+    background-color: red;
+}
+.div-2 {
+    background-color: indigo;
+}
+.div-3 {
+    background-color: green;
+}
+.color-white {
+    color: white;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
