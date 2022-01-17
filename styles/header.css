@@ -1,0 +1,17 @@
+header {
+    height: 60px;
+    background-color: dimgray;
+}
+
+nav {
+    height: 100%;
+}
+
+nav .d-flex {
+    gap: 15px;  
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}

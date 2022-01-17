@@ -1,0 +1,12 @@
+* {
+    font-family: 'ALK Rounded Nusx Med', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 800px;
+    margin-inline: auto;
+}
