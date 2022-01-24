@@ -33,3 +33,112 @@
 .welcome-container p {
     color: rgba(255,255,255,.6);
 }
+
+.welcome-container .download-container {
+    background-color: dodgerblue;
+    color: white;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    height: 58px;
+}
+
+.welcome-container .download-container h6 {
+    margin: 0;
+}
+.welcome-container .download-container > div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 2px solid rgb(44, 44, 50);
+}
+.welcome-container .download-container > div:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* tooltip css */
+.tooltip-container {
+    position: relative;
+    font-size: 14px;
+    background-color: rgb(37, 37, 43);
+    padding-block: 7px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.tooltip-container::after {
+	content: '';
+	background-color: rgb(37, 37, 43);
+	width: 15px;
+	height: 15px;
+	transform: rotate(45deg);
+	position: absolute;
+	right: 15px;
+	top: -7px;
+}
+
+.tooltip-container p {
+    margin: 0;
+}
+
+.tooltip-container a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+/* rules css */
+
+.rules-container {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.rules-container p {
+    margin: 0;
+}
+
+.rules-container a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+/* features CSS */
+
+.features-container {
+    text-align: center;
+}
+
+.features-container .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.features-container .container > div {
+    padding-block: 30px;
+}
+
+.features-container .container > div:hover {
+    background-color: rgb(227, 227, 227);
+}
+
+.features-container .container > div:first-child:hover i {
+    color: firebrick;
+}
+
+.features-container .container > div:nth-child(2):hover i {
+    color: green;
+}
+
+.features-container .container > div:nth-child(3):hover i {
+    color: dodgerblue;
+}
+
+.features-container .container > div:last-child:hover i {
+    color: gold;
+}
+
+.features-container i {
+    font-size: 65px;
+    margin-bottom: 15px;
+}
